@@ -1,4 +1,9 @@
 Summary
+Created an android app using MVVM that calls the following API - https://api.thecatapi.com/v1/images/search?limit=100&page=10&order=Desc
+where limit = page size and page = page no
+It display the image in a paginated (endless scrolling) format with the layout as a staggered grid layout.
+This program includes the following libraries - Retrofit, Dagger (optional) and Glide/Picasso.
+
 Added dependencies (Retrofit, Glide, ViewModel).
 Added INTERNET permission in AndroidManifest.xml.
 Created Model (CatImage.kt).
